@@ -470,7 +470,7 @@ static int process_file(const char *in_path, const char *base,
     free(text);
 
     int rc = -1;
-
+// remember this part (return for change)
     if (ensure_dir(outdir) == 0) {
         size_t need = strlen(outdir) + strlen(base) + strlen(STUDENT_NAME) +
                       strlen(STUDENT_LASTNAME) + strlen(STUDENT_ID) + 16;
@@ -620,3 +620,7 @@ int main(int argc, char **argv) {
 
     return dir ? run_dir(dir, outdir) : run_file(input, outdir);
 }
+
+
+
+// check error messeges and test if correct output
