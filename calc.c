@@ -1,7 +1,7 @@
 // Haralds Roskošs 251RDC034
-// (optional) https://github.com/<your-username>/calc-lab-home
+// https://github.com/haralds0511/Graded-lab-Arithmetic-Parser-in-C-Haralds_Rosko-s
 // Compile with: gcc -O2 -Wall -Wextra -std=c17 -o calc calc.c -lm
-// Resources used: <fill in: every AI tool, website and book you used; details in comments where you used them>
+// Resources used: cloude was used for tehnical difficulties on running this program on my machine, https://www.w3schools.com/c/, https://stackoverflow.com/questions/52444173/use-of-typedef-in-c-programming-language
 
 
 #define _POSIX_C_SOURCE 200809L
